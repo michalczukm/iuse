@@ -1,5 +1,9 @@
 # Stuff that i use
 
+## Autostart scripts
+
+* [remap-tilde.sh](./scripts/remap-tilde/run.sh)
+
 ## 💻 terminal
 
 | name                                                       | cli                                                                                                  |
