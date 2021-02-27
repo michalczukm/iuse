@@ -1,17 +1,20 @@
 # Stuff that i use
 
-## Autostart scripts
+## Autostart scripts & friends
 
-* [remap-tilde.sh](./scripts/remap-tilde/run.sh)
+- [remap-tilde.sh](./scripts/remap-tilde/run.sh)
+- [npm-completion.sh](./scripts/npm-completion/run.sh)
 
 ## 💻 terminal
 
-| name                                                       | cli                                                                                                  |
-| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| [iterm2](https://iterm2.com/)                              | `brew install --cask iterm2`                                                                         |
-| [oh-my-zsh](https://ohmyz.sh/)                             | `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`             |
-| [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) | `brew install diff-so-fancy && git config --global core.pager "diff-so-fancy \| less --tabs=4 -RFX"` |
-|                                                            |                                                                                                      |
+| name                                                            | cli                                                                                                  |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [iterm2](https://iterm2.com/)                                   | `brew install --cask iterm2`                                                                         |
+| [oh-my-zsh](https://ohmyz.sh/)                                  | `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`             |
+| [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)      | `brew install diff-so-fancy && git config --global core.pager "diff-so-fancy \| less --tabs=4 -RFX"` |
+| [bat](https://github.com/sharkdp/bat)                           | `brew install bat`                                                                                   |
+| [translative-shell](https://github.com/soimort/translate-shell) | `./scripts/translative-shell/run.sh`                                                                 |
+|                                                                 |                                                                                                      |
 
 ## 📹 video/gif
 
