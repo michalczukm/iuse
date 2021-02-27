@@ -25,7 +25,7 @@
 
 ## 📝 notes
 
-| name                      | cli                   | app store         |
-| ------------------------- | --------------------- | ----------------- |
-| [bear](https://bear.app/) | `brew install gifski` | https://bear.app/ |
-|                           |                       |                   |
+| name                      | cli | app store         |
+| ------------------------- | --- | ----------------- |
+| [bear](https://bear.app/) | ``  | https://bear.app/ |
+|                           |     |                   |
