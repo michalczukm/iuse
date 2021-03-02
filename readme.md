@@ -16,6 +16,14 @@
 | [translative-shell](https://github.com/soimort/translate-shell) | `./scripts/translative-shell/run.sh`                                                                 |
 |                                                                 |                                                                                                      |
 
+## web
+
+| name                                         | extras                                                                                                                                        |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Simplify Gmail](http://simpl.fyi/)          |                                                                                                                                               |
+| [My gmail filters](./assets/mailFilters.xml) | [How to import export/filters](https://sites.google.com/a/chatham.k12.nc.us/chatham-goes-google/home/gmail---exporting-and-importing-filters) |
+|                                              |                                                                                                                                               |
+
 ## 📹 video/gif
 
 | name                                           | cli                   | app store                               |
@@ -27,5 +35,5 @@
 
 | name                      | cli | app store         |
 | ------------------------- | --- | ----------------- |
-| [bear](https://bear.app/) | ``  | https://bear.app/ |
+| [bear](https://bear.app/) |     | https://bear.app/ |
 |                           |     |                   |

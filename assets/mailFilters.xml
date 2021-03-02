@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:z0000001570141387038*4505119441264728439,z0000001570142066744*2386342828570982373,z0000001584488191735*7509029296654574936,z0000001593645792355*2947990102398269076,z0000001593646970786*7649485743407985246,z0000001593647073101*0810653655663418196,z0000001593647163881*4878695402574249675,z0000001593647486670*2288026158276064518,z0000001593647928644*0301580572601569935</id>
+	<updated>2021-03-02T24:01:54Z</updated>
+	<author>
+		<name>Michał Michalczuk</name>
+		<email>michalczukm@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001570141387038*4505119441264728439</id>
+		<updated>2021-03-02T24:01:54Z</updated>
+		<content></content>
+		<apps:property name='from' value='jsw@peterc.org OR newsletter@typescript-weekly.com'/>
+		<apps:property name='label' value='🗞 Newsletters/🐶 TS/JS'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001570142066744*2386342828570982373</id>
+		<updated>2021-03-02T24:01:54Z</updated>
+		<content></content>
+		<apps:property name='from' value='tyler@tylermcginnis.com OR react@cooperpress.com OR tyler@ui.dev'/>
+		<apps:property name='label' value='🗞 Newsletters/⚛️ React'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001584488191735*7509029296654574936</id>
+		<updated>2021-03-02T24:01:54Z</updated>
+		<content></content>
+		<apps:property name='from' value='notification@slack.com'/>
+		<apps:property name='label' value='🤓Slack'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001593645792355*2947990102398269076</id>
+		<updated>2021-03-02T24:01:54Z</updated>
+		<content></content>
+		<apps:property name='from' value='d.zagraniczny@gmail.com'/>
+		<apps:property name='label' value='🌍Dział Zagraniczny'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001593646970786*7649485743407985246</id>
+		<updated>2021-03-02T24:01:54Z</updated>
+		<content></content>
+		<apps:property name='from' value='cassidy@cassidoo.co OR cassidoo@gmail.com'/>
+		<apps:property name='label' value='🗞 Newsletters/👩‍💻cassidoo'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001593647073101*0810653655663418196</id>
+		<updated>2021-03-02T24:01:54Z</updated>
+		<content></content>
+		<apps:property name='from' value='dave@daveceddia.com'/>
+		<apps:property name='label' value='🗞 Newsletters/👨‍💻 Dave Ceddia'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001593647163881*4878695402574249675</id>
+		<updated>2021-03-02T24:01:54Z</updated>
+		<content></content>
+		<apps:property name='from' value='dan@overreacted.io'/>
+		<apps:property name='label' value='🗞 Newsletters/👨‍💻 Dan Abramov'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001593647486670*2288026158276064518</id>
+		<updated>2021-03-02T24:01:54Z</updated>
+		<content></content>
+		<apps:property name='from' value='kale@hackernewsletter.com OR yo@dev.to'/>
+		<apps:property name='label' value='🗞 Newsletters/👾 Hacker Newsletter/dev.to'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001593647928644*0301580572601569935</id>
+		<updated>2021-03-02T24:01:54Z</updated>
+		<content></content>
+		<apps:property name='from' value='news@remix.run'/>
+		<apps:property name='label' value='🗞 Newsletters/🕺🕺 Remix'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>
