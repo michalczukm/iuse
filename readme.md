@@ -1,5 +1,7 @@
 # Stuff that i use
 
+I use macOS, so all terminal/desktop apps are around this operation system.
+
 ## Autostart scripts & friends
 
 - [remap-tilde.sh](./scripts/remap-tilde/run.sh)
@@ -15,6 +17,13 @@
 | [bat](https://github.com/sharkdp/bat)                           | `brew install bat`                                                                                   |
 | [translative-shell](https://github.com/soimort/translate-shell) | `./scripts/translative-shell/run.sh`                                                                 |
 |                                                                 |                                                                                                      |
+
+## 🖥 desktop / system
+
+| name                                                                                              | cli                               | app store         |
+| ------------------------------------------------------------------------------------------------- | --------------------------------- | ----------------- |
+| [bear](https://bear.app/) <br/> Notes app                                                         |                                   | https://bear.app/ |
+| [Rectangle](https://github.com/rxhanson/Rectangle) </br> Window management app based on Spectacle | `./scripts/load-rectangle/run.sh` |                   |
 
 ## web
 
