@@ -9,14 +9,15 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 
 ## 💻 terminal
 
-| name                                                            | cli                                                                                                  |
-| --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| [iterm2](https://iterm2.com/)                                   | `brew install --cask iterm2`                                                                         |
-| [oh-my-zsh](https://ohmyz.sh/)                                  | `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`             |
-| [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)      | `brew install diff-so-fancy && git config --global core.pager "diff-so-fancy \| less --tabs=4 -RFX"` |
-| [bat](https://github.com/sharkdp/bat)                           | `brew install bat`                                                                                   |
-| [translative-shell](https://github.com/soimort/translate-shell) | `./scripts/translative-shell/run.sh`                                                                 |
-|                                                                 |                                                                                                      |
+| name                                                                                                 | cli                                                                                                  |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [iterm2](https://iterm2.com/)                                                                        | `brew install --cask iterm2`                                                                         |
+| [oh-my-zsh](https://ohmyz.sh/)                                                                       | `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`             |
+| [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)                                           | `brew install diff-so-fancy && git config --global core.pager "diff-so-fancy \| less --tabs=4 -RFX"` |
+| [bat](https://github.com/sharkdp/bat) <br/> `cat` with syntax highlighting                           | `brew install bat`                                                                                   |
+| [translative-shell](https://github.com/soimort/translate-shell) <br/> google translate from terminal | `./scripts/translative-shell/run.sh`                                                                 |
+| [httpie](https://github.com/httpie/httpie) <br/> human-friendly CLI HTTP client                      | `brew install httpie`                                                                                |
+|                                                                                                      |                                                                                                      |
 
 ## 🖥 desktop / system
 
