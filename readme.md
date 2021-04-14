@@ -21,10 +21,12 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 
 ## 🖥 desktop / system
 
-| name                                                                                              | cli                               | app store         |
-| ------------------------------------------------------------------------------------------------- | --------------------------------- | ----------------- |
-| [bear](https://bear.app/) <br/> Notes app                                                         |                                   | https://bear.app/ |
-| [Rectangle](https://github.com/rxhanson/Rectangle) </br> Window management app based on Spectacle | `./scripts/load-rectangle/run.sh` |                   |
+| name                                                                                              | cli                               |
+| ------------------------------------------------------------------------------------------------- | --------------------------------- |
+| [bear](https://bear.app/) <br/> Notes app                                                         |                                   |
+| [Rectangle](https://github.com/rxhanson/Rectangle) </br> Window management app based on Spectacle | `./scripts/load-rectangle/run.sh` |
+| [Tot](https://tot.rocks/) </br> Tiny notes with quake mode                                        |                                   |
+| [Insomnia](https://insomnia.rest/) </br> Best HTTP client                                         | `brew install --cask insomnia`    |
 
 ## web
 
