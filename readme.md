@@ -28,18 +28,21 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 
 ## web
 
-| name                                         | extras                                                                                                                                        |
-| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Simplify Gmail](http://simpl.fyi/)          |                                                                                                                                               |
-| [My gmail filters](./assets/mailFilters.xml) | [How to import export/filters](https://sites.google.com/a/chatham.k12.nc.us/chatham-goes-google/home/gmail---exporting-and-importing-filters) |
-|                                              |                                                                                                                                               |
+| name                                                                                                      | extras                                                                                                                                        |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Simplify Gmail](http://simpl.fyi/)                                                                       |                                                                                                                                               |
+| [Vimium](https://vimium.github.io/)                                                                       |                                                                                                                                               |
+| [My gmail filters](./assets/mailFilters.xml)                                                              | [How to import export/filters](https://sites.google.com/a/chatham.k12.nc.us/chatham-goes-google/home/gmail---exporting-and-importing-filters) |
+| [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) |                                                                                                                                               |
+|                                                                                                           |                                                                                                                                               |
 
-## 📹 video/gif
+## 📹 video/gif/images
 
-| name                                           | cli                   | app store                               |
-| ---------------------------------------------- | --------------------- | --------------------------------------- |
-| [gifski](https://github.com/ImageOptim/gifski) | `brew install gifski` | https://apps.apple.com/app/id1351639930 |
-|                                                |                       |                                         |
+| name                                                                                                                                                | cli                              | app store                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- | --------------------------------------- |
+| [ImageOptim](https://imageoptim.com/mac) </br> Removes bloated metadata. Saves disk space & bandwidth by compressing images without losing quality. | `brew install --cask imageoptim` |                                         |
+| [gifski](https://github.com/ImageOptim/gifski)                                                                                                      | `brew install gifski`            | https://apps.apple.com/app/id1351639930 |
+|                                                                                                                                                     |                                  |                                         |
 
 ## 📝 notes
 
