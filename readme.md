@@ -38,11 +38,11 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 
 ## 📹 video/gif/images
 
-| name                                                                                                                                                | cli                              | app store                               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- | --------------------------------------- |
-| [ImageOptim](https://imageoptim.com/mac) </br> Removes bloated metadata. Saves disk space & bandwidth by compressing images without losing quality. | `brew install --cask imageoptim` |                                         |
-| [gifski](https://github.com/ImageOptim/gifski)                                                                                                      | `brew install gifski`            | https://apps.apple.com/app/id1351639930 |
-|                                                                                                                                                     |                                  |                                         |
+| name                                                                                                                                                | cli                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| [ImageOptim](https://imageoptim.com/mac) </br> Removes bloated metadata. Saves disk space & bandwidth by compressing images without losing quality. | `brew install --cask imageoptim` |
+| [gifski](https://github.com/ImageOptim/gifski)                                                                                                      | `brew install gifski`            |
+|                                                                                                                                                     |                                  |
 
 ## 📝 notes
 
