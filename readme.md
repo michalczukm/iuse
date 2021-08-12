@@ -27,6 +27,7 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 | [Rectangle](https://github.com/rxhanson/Rectangle) </br> Window management app based on Spectacle | `./scripts/load-rectangle/run.sh` |
 | [Tot](https://tot.rocks/) </br> Tiny notes with quake mode                                        |                                   |
 | [Insomnia](https://insomnia.rest/) </br> Best HTTP client                                         | `brew install --cask insomnia`    |
+| [Shortcut](https://shotcut.org/) <br/> OSS video editor                                           |                                   |
 
 ## web
 
