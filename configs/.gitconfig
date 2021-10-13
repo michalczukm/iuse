@@ -1,0 +1,39 @@
+[user]
+	name = Michal Michalczuk
+	email = michalczukm@gmail.com
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	excludesfile = /Users/mmichalczuk/.gitignore_global
+[alias]
+	ci = commit
+	cim = commit -m
+	br = branch
+	st = status
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	co = checkout
+	here = log -1 --summary
+	dtool = difftool --no-prompt
+	# git change-commits GIT_COMMITTER_NAME "old name" "new name"
+	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f "
+	# ignoring and unignoring only locally
+	ignore = update-index --assume-unchanged
+	unignore = update-index --no-assume-unchanged
+	ignored = !git ls-files -v | grep "^[[:lower:]]"
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[push]
+	default = current
+[mergetool]
+	keepBackup = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/mmichalczuk/.stCommitMsg

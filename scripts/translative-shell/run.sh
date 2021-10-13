@@ -8,9 +8,9 @@ take translative-shell
 wget git.io/trans 
 chmod +x ./trans
 
-export PATH="$HOME/tools/translative-shell:$PATH"
-
 cat <<EOT >> ~/.zshrc
+ export PATH="$HOME/tools/translative-shell:$PATH"
+
  # translative-shell
  tpl() { trans en:pl "$1" }
  ten() { trans pl:en "$1"}
