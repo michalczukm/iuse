@@ -53,3 +53,4 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 | ------------------------- | --- | ----------------- |
 | [bear](https://bear.app/) |     | https://bear.app/ |
 |                           |     |                   |
+
