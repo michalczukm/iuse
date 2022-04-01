@@ -17,7 +17,7 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 | [bat](https://github.com/sharkdp/bat) <br/> `cat` with syntax highlighting                           | `brew install bat`                                                                                          |
 | [translative-shell](https://github.com/soimort/translate-shell) <br/> google translate from terminal | `./scripts/translative-shell/run.sh`                                                                        |
 | [httpie](https://github.com/httpie/httpie) <br/> human-friendly CLI HTTP client                      | `brew install httpie`                                                                                       |
-| [mcfly](https://github.com/cantino/mcfly) <br/> waaaay better searching command history (ctrl+r)     | `brew tap cantino/mcfly && brew install cantino/mcfly/mcfly && echo "eval "$(mcfly init zsh)"" >> ~/.zshrc` |
+| [mcfly](https://github.com/cantino/mcfly) <br/> waaaay better searching command history (ctrl+r)     | `brew tap cantino/mcfly && brew install cantino/mcfly/mcfly && echo 'eval "$(mcfly init zsh)"' >> ~/.zshrc` |
 |                                                                                                      |                                                                                                             |
 
 ## 🖥 desktop / system
