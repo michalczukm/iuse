@@ -98,6 +98,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias ls="exa --icons"
+alias lg="exa --long --header --git"
 alias cat=bat
 alias flushdns='sudo killall -HUP mDNSResponder'
 alias fixsound='sudo pkill coreaudiod'
@@ -107,8 +109,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
+# tools
+export PATH=$PATH:$HOME/tools
+
 # run `nvm use` when navigate to folder containing .nvmrc, or `use default if it doesn't contain it
-autoload -U add-zsh-hook
+# autoload -U add-zsh-hook
 load-nvmrc() {
   local node_version="$(nvm version)"
   local nvmrc_path="$(nvm_find_nvmrc)"
@@ -126,7 +131,7 @@ load-nvmrc() {
     nvm use default
   fi
 }
-add-zsh-hook chp
+# add-zsh-hook chp
 
 # ========== Generic utils ==============
 
@@ -149,3 +154,9 @@ tpl() {
 ten() {
   trans pl:en "$1"
 }
+
+# https://github.com/cantino/mcfly
+eval "$(mcfly init zsh)"
+
+# for GPG https://stackoverflow.com/a/42265848/2029818
+export GPG_TTY=$(tty)
