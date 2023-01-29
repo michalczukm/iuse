@@ -24,13 +24,13 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 
 ## 🖥 desktop / system
 
-| name                                                                                                                                                                                          | cli                               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| [Notion](https://www.notion.so/product)                                                                                                                                                       |                                   |
-| [Rectangle](https://github.com/rxhanson/Rectangle) </br> Window management app based on Spectacle                                                                                             | `./scripts/load-rectangle/run.sh` |
-| [Tot](https://tot.rocks/) </br> Tiny notes with quake mode                                                                                                                                    |                                   |
-| [Insomnia](https://insomnia.rest/) </br> Best HTTP client                                                                                                                                     | `brew install --cask insomnia`    |
-| [Shortcut](https://shotcut.org/) <br/> OSS video editor                                                                                                                                       |                                   |
+| name                                                                                                                                                                                              | cli                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| [Notion](https://www.notion.so/product)                                                                                                                                                           |                                   |
+| [Rectangle](https://github.com/rxhanson/Rectangle) </br> Window management app based on Spectacle                                                                                                 | `./scripts/load-rectangle/run.sh` |
+| [Tot](https://tot.rocks/) </br> Tiny notes with quake mode                                                                                                                                        |                                   |
+| [Insomnia](https://insomnia.rest/) </br> Best HTTP client                                                                                                                                         | `brew install --cask insomnia`    |
+| [Shortcut](https://shotcut.org/) <br/> OSS video editor                                                                                                                                           |                                   |
 | [Gnupg](https://www.gnupg.org/download/) <br/> free implementation of the OpenPGP, I use it for signing commits.<br/>I've described [here whole setup](./docs/add-gpg-key-to-sign-git-commits.md) | `brew install gnupg`              |
 
 ## web
@@ -42,6 +42,13 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 | [My gmail filters](./assets/mailFilters.xml)                                                              | [How to import export/filters](https://sites.google.com/a/chatham.k12.nc.us/chatham-goes-google/home/gmail---exporting-and-importing-filters) |
 | [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) |                                                                                                                                               |
 |                                                                                                           |                                                                                                                                               |
+
+## ⌨️ keyboard
+
+| name                                                                                                                                              | extras                                                                                                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [VIA](https://usevia.app/#/) for [Keychron K3 Pro](https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-custom-mechanical-keyboard) | So far schema is not available out of the box, pls visit [Keychron page](https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-custom-mechanical-keyboard). My config in [config folder](./configs/keychron_k3_pro.json) |
+|                                                                                                                                                   |                                                                                                                                                                                                                                       |
 
 ## 📹 video/gif/images
 
