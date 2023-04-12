@@ -158,5 +158,16 @@ ten() {
 # https://github.com/cantino/mcfly
 eval "$(mcfly init zsh)"
 
+rmnodemodules() {
+  if [ "$1" = "-x" ]; then
+    echo "Removing node_modules"
+    find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
+  else
+    echo "Listing node_modules to remove"
+    find . -name 'node_modules' -type d -prune
+    return
+  fi
+}
+
 # for GPG https://stackoverflow.com/a/42265848/2029818
 export GPG_TTY=$(tty)
