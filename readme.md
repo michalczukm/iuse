@@ -24,14 +24,15 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 
 ## 🖥 desktop / system
 
-| name                                                                                                                                                                                              | cli                               |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| [Notion](https://www.notion.so/product)                                                                                                                                                           |                                   |
-| [Rectangle](https://github.com/rxhanson/Rectangle) </br> Window management app based on Spectacle                                                                                                 | `./scripts/load-rectangle/run.sh` |
-| [Tot](https://tot.rocks/) </br> Tiny notes with quake mode                                                                                                                                        |                                   |
-| [Insomnia](https://insomnia.rest/) </br> Best HTTP client                                                                                                                                         | `brew install --cask insomnia`    |
-| [Shortcut](https://shotcut.org/) <br/> OSS video editor                                                                                                                                           |                                   |
-| [Gnupg](https://www.gnupg.org/download/) <br/> free implementation of the OpenPGP, I use it for signing commits.<br/>I've described [here whole setup](./docs/add-gpg-key-to-sign-git-commits.md) | `brew install gnupg`              |
+| name                                                                                                                                                                                              | cli                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| [Notion](https://www.notion.so/product)                                                                                                                                                           |                                     |
+| [Rectangle](https://github.com/rxhanson/Rectangle) </br> Window management app based on Spectacle                                                                                                 | `./scripts/load-rectangle/run.sh`   |
+| [Tot](https://tot.rocks/) </br> Tiny notes with quake mode                                                                                                                                        |                                     |
+| [Insomnia](https://insomnia.rest/) </br> Best HTTP client                                                                                                                                         | `brew install --cask insomnia`      |
+| [Shortcut](https://shotcut.org/) <br/> OSS video editor                                                                                                                                           |                                     |
+| [Doku](https://github.com/amerkurev/doku/) <br/> Docker disk usage dashboard with tips how to clean up                                                                                            | `docker pull amerkurev/doku:latest` |
+| [Gnupg](https://www.gnupg.org/download/) <br/> free implementation of the OpenPGP, I use it for signing commits.<br/>I've described [here whole setup](./docs/add-gpg-key-to-sign-git-commits.md) | `brew install gnupg`                |
 
 ## web
 
