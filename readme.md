@@ -9,18 +9,20 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 
 ## 💻 terminal
 
-| name                                                                                                                                                  | cli                                                                                                         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [iterm2](https://iterm2.com/)                                                                                                                         | `brew install --cask iterm2`                                                                                |
-| [oh-my-zsh](https://ohmyz.sh/)                                                                                                                        | `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`                    |
-| [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)                                                                                            | `brew install diff-so-fancy && git config --global core.pager "diff-so-fancy \| less --tabs=4 -RFX"`        |
-| [bat](https://github.com/sharkdp/bat) <br/> `cat` with syntax highlighting                                                                            | `brew install bat`                                                                                          |
-| [translative-shell](https://github.com/soimort/translate-shell) <br/> google translate from terminal                                                  | `./scripts/translative-shell/run.sh`                                                                        |
-| [httpie](https://github.com/httpie/httpie) <br/> human-friendly CLI HTTP client                                                                       | `brew install httpie`                                                                                       |
-| [mcfly](https://github.com/cantino/mcfly) <br/> waaaay better searching command history (ctrl+r)                                                      | `brew tap cantino/mcfly && brew install cantino/mcfly/mcfly && echo 'eval "$(mcfly init zsh)"' >> ~/.zshrc` |
-| [nerd-font](https://www.nerdfonts.com/#home) <br/> font including non-ASCII icons, [install cheat cheat for iTerm2](https://webinstall.dev/nerdfont/) | `brew tap homebrew/cask-fonts && brew install font-Fira-Code-nerd-font`                                     |
-| [exa](https://github.com/ogham/exa) <br/> modern replacement for `ls`                                                                                 | `brew install exa`                                                                                          |
-|                                                                                                                                                       |                                                                                                             |
+| name                                                                                                                                                    | cli                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [iterm2](https://iterm2.com/)                                                                                                                           | `brew install --cask iterm2`                                                                                |
+| [oh-my-zsh](https://ohmyz.sh/)                                                                                                                          | `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`                    |
+| [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)                                                                                              | `brew install diff-so-fancy && git config --global core.pager "diff-so-fancy \| less --tabs=4 -RFX"`        |
+| [bat](https://github.com/sharkdp/bat) <br/> `cat` with syntax highlighting                                                                              | `brew install bat`                                                                                          |
+| [translative-shell](https://github.com/soimort/translate-shell) <br/> google translate from terminal                                                    | `./scripts/translative-shell/run.sh`                                                                        |
+| [httpie](https://github.com/httpie/httpie) <br/> human-friendly CLI HTTP client                                                                         | `brew install httpie`                                                                                       |
+| [mcfly](https://github.com/cantino/mcfly) <br/> waaaay better searching command history (ctrl+r)                                                        | `brew tap cantino/mcfly && brew install cantino/mcfly/mcfly && echo 'eval "$(mcfly init zsh)"' >> ~/.zshrc` |
+| [nerd-font](https://www.nerdfonts.com/#home) <br/> font including non-ASCII icons, [install cheat cheat for iTerm2](https://webinstall.dev/nerdfont/)   | `brew tap homebrew/cask-fonts && brew install font-Fira-Code-nerd-font`                                     |
+| [exa](https://github.com/ogham/exa) <br/> modern replacement for `ls`                                                                                   | `brew install exa`                                                                                          |
+| [cloc](https://github.com/AlDanial/cloc) <br/> cloc counts blank lines, comment lines, and physical lines of source code in many programming languages. | `brew install cloc`                                                                                         |
+| [hyperfine](https://github.com/sharkdp/hyperfine) <br/> A command-line benchmarking tool                                                                | `brew install hyperfine`                                                                                    |
+|                                                                                                                                                         |                                                                                                             |
 
 ## 🖥 desktop / system
 
@@ -33,7 +35,7 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 | [Shortcut](https://shotcut.org/) <br/> OSS video editor                                                                                                                                           |                                     |
 | [Doku](https://github.com/amerkurev/doku/) <br/> Docker disk usage dashboard with tips how to clean up                                                                                            | `docker pull amerkurev/doku:latest` |
 | [Gnupg](https://www.gnupg.org/download/) <br/> free implementation of the OpenPGP, I use it for signing commits.<br/>I've described [here whole setup](./docs/add-gpg-key-to-sign-git-commits.md) | `brew install gnupg`                |
-| [Rocket](https://matthewpalmer.net/rocket/) <br/> Emoji picker for macOS                                                                                                                          |         |
+| [Rocket](https://matthewpalmer.net/rocket/) <br/> Emoji picker for macOS                                                                                                                          |                                     |
 
 ## web
 
@@ -63,7 +65,8 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 
 ## 📝 notes
 
-| name                                    | cli | app store                     |
-| --------------------------------------- | --- | ----------------------------- |
-| [Notion](https://www.notion.so/product) |     | https://www.notion.so/product |
-|                                         |     |                               |
+| name                                        | cli | app store                     |
+| ------------------------------------------- | --- | ----------------------------- |
+| [~~Notion~~](https://www.notion.so/product) |     | https://www.notion.so/product |
+| [Obsidian](https://obsidian.md/)            |     | https://obsidian.md/          |
+|                                             |     |                               |
