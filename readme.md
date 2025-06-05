@@ -36,6 +36,7 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 | [Doku](https://github.com/amerkurev/doku/) <br/> Docker disk usage dashboard with tips how to clean up                                                                                            | `docker pull amerkurev/doku:latest` |
 | [Gnupg](https://www.gnupg.org/download/) <br/> free implementation of the OpenPGP, I use it for signing commits.<br/>I've described [here whole setup](./docs/add-gpg-key-to-sign-git-commits.md) | `brew install gnupg`                |
 | [Rocket](https://matthewpalmer.net/rocket/) <br/> Emoji picker for macOS                                                                                                                          |                                     |
+| [Barbee](https://apps.apple.com/us/app/barbee-hide-menu-bar-items/id1548711022) <br/> Ultimate macOS menu bar manager                                                                             |                                     |
 
 ## web
 
