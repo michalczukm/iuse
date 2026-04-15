@@ -201,10 +201,10 @@ gcob() {
     echo "Usage: gcob 'branch description' [-f|--fix]"
     return 1
   fi
-  
+
   local description="$1"
   local add_fix_prefix=false
-  
+
   # Check for fix flag in any position
   for arg in "$@"; do
     if [[ "$arg" == "-f" || "$arg" == "--fix" ]]; then
@@ -212,40 +212,51 @@ gcob() {
       break
     fi
   done
-  
+
   # Convert to lowercase and replace spaces with hyphens
   branch_name=$(echo "$description" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
-  
+
   # Add fix prefix if requested
   if [ "$add_fix_prefix" = true ]; then
     branch_name="fix-$branch_name"
   fi
-  
+
   echo "Creating and checking out branch: $branch_name"
   git checkout -b "$branch_name"
 }
 
-# docker 
+# docker
 # https://www.docker.com/blog/ga-launch-docker-bake
 COMPOSE_BAKE=true
 
 ###### AIDEVS
 aidevs() {
-  nvm exec v18.16.0 pnpm -C ~/workspace/github/aidevs/cli run start -t $1
+  nvm exec v22.20.0 pnpm -C ~/workspace/github/aidevs/cli run start $1
 }
+
+###### FRLNCR specific
+
+# [prisma issue](https://github.com/prisma/prisma/issues/12417)
+#export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
 # for GPG https://stackoverflow.com/a/42265848/2029818
 export GPG_TTY=$(tty)
 
-alias myIp="curl https://ipinfo.io/ip"
+alias my-ip="curl https://ipinfo.io/ip"
 
 alias dockerStopAll="docker ps --format '{{.ID}}' | xargs docker stop"
-
 ###-begin-npm-completion-###
 . "/Users/michalczukm/.deno/env"
 # Initialize zsh completions (added by deno install script)
 #autoload -Uz compinit
 #compinit
+
+# fix GPG signatures in term window fail due to "Screen or window to small."
+# @seemore https://github.com/ghostty-org/ghostty/discussions/4221
+export GPG_TTY=$(tty)
+
+alias n8n='open http://localhost:5678'
+alias cc='claude --permission-mode=acceptEdits'
 
 # bun completions
 [ -s "/Users/michalczukm/.bun/_bun" ] && source "/Users/michalczukm/.bun/_bun"
