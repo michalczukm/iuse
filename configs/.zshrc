@@ -133,6 +133,21 @@ onport() {
   lsof -i tcp:$1
 }
 
+# kill process on port. Usage 👉 killonport 8080 3006 3009
+killonport() {
+  for port in "$@"; do
+    local info=$(lsof -ti tcp:$port)
+    if [[ -z "$info" ]]; then
+      echo "No process on port $port"
+    else
+      echo "Port $port:"
+      lsof -i tcp:$port
+      echo "\nKilling PIDs: $info"
+      echo $info | xargs kill -9 || echo "Failed to kill process on port $port"
+    fi
+  done
+}
+
 # ========== translate shell =========
 # https://github.com/soimort/translate-shell
 tpl() {
