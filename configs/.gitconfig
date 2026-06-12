@@ -37,3 +37,6 @@
 	trustExitCode = true
 [commit]
 	template = /Users/mmichalczuk/.stCommitMsg
+[init]
+	defaultBranch = main
+	templateDir = /Users/michalczukm/.git-templates

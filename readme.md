@@ -7,6 +7,15 @@ I use macOS, so all terminal/desktop apps are around this operation system.
 - [remap-tilde.sh](./scripts/remap-tilde/run.sh)
 - [npm-completion.sh](./scripts/npm-completion/run.sh)
 
+## Sync configs & dotfiles
+
+[`sync-configs.sh`](./sync-configs.sh) pulls live dotfiles/configs from user's machine (`$HOME`) into [`./configs`](./configs).
+
+```sh
+./sync-configs.sh        # copy machine configs -> repo
+./sync-configs.sh --dry  # preview changes, copy nothing
+```
+
 ## 💻 terminal
 
 | name                                                                                                                                                    | cli                                                                                                         |

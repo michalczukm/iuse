@@ -273,5 +273,60 @@ alias lg="lazygit"
 eval "$(direnv hook zsh)"
 
 function ide() {
-    eval "${IDE_CMD:-cursor .}" "$@"
+    eval "${IDE_CMD:-cursor .}" --classic "$@"
+}
+
+alias moe='ssh -i ~/.ssh/mikrus_moe moe@olga235.mikrus.xyz -p 10235'
+
+# Convert HEIC files to compressed PNG (20% dims + pngquant)
+# Usage: heic2png <directory>
+#        heic2png file1.heic file2.heic ...
+heic2png() {
+  if [[ $# -eq 0 ]]; then
+    echo "Usage: heic2png <directory> | <file1.heic> [file2.heic ...]"
+    return 1
+  fi
+
+  local out_dir files=()
+
+  if [[ $# -eq 1 && -d "$1" ]]; then
+    local dir="${1%/}"
+    out_dir="${dir}/png_output"
+    # (N) = no error if no match; (#i) = case-insensitive (avoids HEIC+heic duplicates on macOS)
+    files=("${dir}"/(#i)*.heic(N))
+  else
+    out_dir="${PWD}/png_output"
+    files=("$@")
+  fi
+
+  local valid=()
+  for f in "${files[@]}"; do
+    [[ -f "$f" ]] && valid+=("$f")
+  done
+
+  if [[ ${#valid[@]} -eq 0 ]]; then
+    echo "No HEIC files found."
+    return 1
+  fi
+
+  mkdir -p "$out_dir"
+  local count=0
+
+  for f in "${valid[@]}"; do
+    local base="${${f##*/}%.*}"
+    local tmp="${out_dir}/${base}_tmp.png"
+    local out="${out_dir}/${base}.png"
+
+    magick "$f" -resize 20% -define png:compression-level=9 -strip "$tmp" || { echo "SKIP (magick failed): $f"; continue }
+    pngquant --quality=65-85 --force --output "$out" "$tmp" && rm "$tmp" || { echo "SKIP (pngquant failed): $f"; rm -f "$tmp"; continue }
+
+    local orig final
+    orig=$(stat -f%z "$f")
+    final=$(stat -f%z "$out")
+    local pct=$(( orig > 0 ? final * 100 / orig : 0 ))
+    echo "${f##*/} → ${base}.png: $(( orig / 1024 ))K → $(( final / 1024 ))K (${pct}%)"
+    (( count++ ))
+  done
+
+  print "\nDone: ${count}/${#valid[@]} files → ${out_dir}"
 }
