@@ -15,4 +15,4 @@ hidutil property --set '{"UserKeyMapping":
 
 # add task to autostart
 sudo cp $dir_path/org.custom.keyboard-remap.plist /Library/LaunchDaemons
-sudo launchctl load -w /Library/LaunchDaemons/org.custom.keyboard-remap.plist
+sudo launchctl bootstrap system /Library/LaunchDaemons/org.custom.keyboard-remap.plist
